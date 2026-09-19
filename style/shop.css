@@ -1,0 +1,45 @@
+.shop-img {
+    position: absolute;
+    width: 200px;
+    height: 140px;
+}
+
+.item-name {
+    position: absolute;
+    top: 145px; 
+    left: 40px;
+}
+
+.price {
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+}
+
+.shop-slot {
+    position: absolute;
+    width: 200px;
+    height: 230px;
+    text-decoration: none;
+    color: #9AA4B2;
+    background-color: #151922;
+}
+
+.shop-row {
+    position: absolute;
+    width: 1046px;
+    height: 230px;
+}
+
+.gallery {
+    position: absolute;
+    width: 1064px;
+    height: 1245px;
+}
+
+.filter {
+    position:absolute;
+    width: 1064px; 
+    height: 75px; 
+    background-color: yellow;
+}

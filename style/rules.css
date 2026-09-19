@@ -1,0 +1,42 @@
+.rule-tile {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+
+    padding: 20px;
+    text-decoration: none;
+    color: var(--text-main);
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    transition: 0.2s ease;
+}
+
+.ruleset {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+    gap: 20px;
+
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.rule-tile:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.rule-tile p {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.a1 { border-left: 4px solid #8C6A3B; }
+.a2 { border-left: 4px solid #D4AF37; }
+.a3 { border-left: 4px solid #A88B5A; }
+.a4 { border-left: 4px solid #4DA3FF; }
+.a5 { border-left: 4px solid #B26CFF; }
